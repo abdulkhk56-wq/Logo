@@ -1,9 +1,10 @@
 /* SAFI colour tokens */
 :root {
-  --safi-navy: #0F2A3D;
-  --safi-flare: #DD5A1E;
-  --safi-white: #FFFFFF;
-  --safi-deep: #0A1E2C;
+  --safi-flame-red: #D63A1A;
+  --safi-flame-orange: #EE7420;
+  --safi-flame-yellow: #F8B320;
+  --safi-navy: #0E2236;
+  --safi-deep: #081624;
   --safi-steel: #5B6B78;
   --safi-mist: #E8ECEF;
 }

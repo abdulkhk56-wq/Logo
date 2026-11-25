@@ -1,7 +1,7 @@
-// PNG exports of the app icons / favicon (platform delivery only).
+// PNG exports for platforms that need raster icons: node tools/export_png.js
 const { chromium } = require('playwright');
 const fs = require('fs'), path = require('path');
-const dir = path.join(__dirname, '..', '..', 'public', 'branding');
+const dir = path.join(__dirname, '..', 'public', 'branding');
 const jobs = [
   ['safi-app-icon.svg', 'safi-app-icon-1024.png', 1024], ['safi-app-icon.svg', 'safi-app-icon-512.png', 512],
   ['safi-app-icon.svg', 'safi-app-icon-192.png', 192], ['safi-app-icon-ios.svg', 'apple-touch-icon-180.png', 180],

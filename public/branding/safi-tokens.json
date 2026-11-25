@@ -1,39 +1,42 @@
 {
   "color": {
+    "flame-red": {
+      "value": "#D63A1A",
+      "role": "Outer flame"
+    },
+    "flame-orange": {
+      "value": "#EE7420",
+      "role": "Flame body; the single accent colour in layouts"
+    },
+    "flame-yellow": {
+      "value": "#F8B320",
+      "role": "Flame core"
+    },
     "navy": {
-      "value": "#0F2A3D",
-      "role": "Primary. Symbol plates and wordmark on light grounds; brand surfaces."
-    },
-    "flare": {
-      "value": "#DD5A1E",
-      "role": "Accent. The centre plate only, plus one highlight per layout. Never body text."
-    },
-    "white": {
-      "value": "#FFFFFF",
-      "role": "Primary light ground; plates and wordmark on navy."
+      "value": "#0E2236",
+      "role": "Wordmark, primary brand colour, text"
     },
     "deep": {
-      "value": "#0A1E2C",
-      "role": "Dark UI ground (control-room screens)."
+      "value": "#081624",
+      "role": "Dark interface ground"
     },
     "steel": {
       "value": "#5B6B78",
-      "role": "Secondary text and rules."
+      "role": "Secondary text, rules"
     },
     "mist": {
       "value": "#E8ECEF",
-      "role": "Light panels and table fills."
+      "role": "Light panels"
     }
   },
   "type": {
-    "family": "Barlow",
-    "data": "Barlow Semi Condensed",
+    "brand": "Archivo",
+    "data": "Archivo (width 87-100)",
     "mono": "IBM Plex Mono"
   },
   "logo": {
-    "clearSpace": "one plate width (24/96 of symbol width) on every side",
-    "minLockupPx": 100,
-    "minSymbolPx": 16,
-    "smallCutBelowPx": 24
+    "clearSpace": "half the flame width on every side",
+    "minLockupPx": 96,
+    "minSymbolPx": 16
   }
 }

@@ -2,64 +2,44 @@
 
 Open `brand-guide.html` for the full guidelines.
 
-## Symbol: Laminar
-
-A flame constructed with compass and straight-edge, then read through three equal vertical plates. Only the outline that survives the plates is kept. The plates stand for filtration and control, and the centre plate in Flare is the energy at the core. The development round and construction drawings are in `concepts/`.
-
-Geometry: 120-unit artboard, 6-unit module, plates 24, gaps 12, six construction circles. Every SVG path is circular arcs and straight lines only.
+## Logo
+- **Symbol:** a gas flame with a tall main tongue and a shorter second tongue, drawn in three flat layers (outer flame, body, core). There are no gradients. In one colour, the core is cut out of the outer flame.
+- **Wordmark:** Archivo SemiExpanded (SIL OFL, width 112, weight 640), outlined and letterspaced. Never retype it.
 
 ## Files
-
 | File | Use |
 |---|---|
-| `safi-logo-primary.svg` | Primary logo, light grounds |
-| `safi-logo-primary-dark.svg` | Primary logo, navy / dark grounds |
-| `safi-logo-stacked.svg`, `-stacked-dark.svg` | Centred and square formats |
-| `safi-logo-mono-black.svg`, `-mono-white.svg`, `-mono-navy.svg` | One-colour reproduction |
-| `safi-symbol.svg`, `-dark`, `-mono-black`, `-mono-white` | Symbol alone |
-| `safi-symbol-small.svg` | Small-size cut (gaps opened to 16), for 24px and below |
-| `safi-wordmark.svg`, `-white`, `-black` | Wordmark alone (custom-drawn; never retype it) |
-| `safi-app-icon.svg`, `-light`, `-ios`, `-maskable` | App icons, 1024 grid |
-| `safi-favicon.svg`, `png/` | Favicon and raster exports |
-| `site.webmanifest` | PWA manifest |
-| `safi-colors.css`, `safi-tokens.json` | Tokens |
+| `safi-logo-primary.svg` / `-primary-dark.svg` | Primary logo, light / navy grounds |
+| `safi-logo-stacked.svg` / `-stacked-dark.svg` | Centred and square formats |
+| `safi-logo-mono-black/white/navy.svg` | One-colour logo |
+| `safi-symbol.svg`, `safi-symbol-mono-*.svg` | Symbol alone |
+| `safi-wordmark(-white/-black).svg` | Wordmark alone |
+| `safi-app-icon(-light/-ios/-maskable).svg` | App icons (1024 grid) |
+| `safi-favicon.svg`, `png/` | Favicon and PNG exports |
+| `site.webmanifest`, `safi-colors.css`, `safi-tokens.json` | Manifest and tokens |
 
 ## Colour
-
-| Name | Hex | Role |
+| Name | Hex | Use |
 |---|---|---|
-| SAFI Navy | `#0F2A3D` | Primary: plates, wordmark, brand surfaces |
-| Flare | `#DD5A1E` | The centre plate; at most one highlight per layout |
-| White | `#FFFFFF` | Primary ground |
-| Deep Navy | `#0A1E2C` | Dark interface ground |
-| Steel | `#5B6B78` | Secondary text, rules |
-| Mist | `#E8ECEF` | Panels, fills |
+| SAFI Navy | `#0E2236` | Wordmark, text, brand surfaces |
+| Flame Red | `#D63A1A` | Outer flame |
+| Flame Orange | `#EE7420` | Flame body; the one accent colour in layouts |
+| Flame Yellow | `#F8B320` | Flame core (symbol only) |
+| Steel | `#5B6B78` | Secondary text |
+| Mist | `#E8ECEF` | Panels |
 
-On control-room screens (ISA-101), orange often signals an alarm. Use Flare there only inside the logo.
-
-## Typography
-
-Barlow (SIL OFL) for headlines and text, Barlow Semi Condensed for data and labels.
+On control-room screens, flame colours appear only inside the logo, because orange often signals an alarm.
 
 ## Usage
-
-- Clear space: one plate width (24 of the symbol's 96 units) on every side.
-- Minimum size: lockup 100px / 25mm wide; symbol 16px / 5mm tall. Use `safi-symbol-small.svg` at 24px and below.
-- Don't stretch, recolour plates, move the Flare, add effects, or place the colour logo on Flare or busy grounds.
+Clear space: half the flame width on every side. Minimum size: lockup 96px / 25mm wide; symbol 16px.
 
 ## HTML head
-
 ```html
 <link rel="icon" href="/branding/safi-favicon.svg" type="image/svg+xml">
-<link rel="icon" href="/branding/png/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/branding/png/apple-touch-icon-180.png">
 <link rel="manifest" href="/branding/site.webmanifest">
-<meta name="theme-color" content="#0F2A3D">
+<meta name="theme-color" content="#0E2236">
 ```
 
 ## Rebuild
-
-```sh
-pip install shapely numpy
-python3 tools/v2/identity.py && node tools/v2/export_png.js && python3 tools/v2/guide_final.py
-```
+`pip install fonttools && python3 tools/build.py && node tools/export_png.js && python3 tools/guide.py`
