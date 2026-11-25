@@ -1,0 +1,34 @@
+{
+  "color": {
+    "graphite": {
+      "value": "#16191D",
+      "use": "Primary dark: wordmark, UI chrome, app-icon field"
+    },
+    "flare": {
+      "value": "#E0782A",
+      "use": "Signature accent: the symbol, key actions \u2014 never body text on ivory"
+    },
+    "ivory": {
+      "value": "#F4EFE6",
+      "use": "Primary light surface; wordmark on dark"
+    },
+    "petroleum": {
+      "value": "#14403D",
+      "use": "Secondary: stable / in-limits state, data surfaces"
+    },
+    "steel": {
+      "value": "#8A9199",
+      "use": "Neutral: rules, secondary text on graphite"
+    },
+    "ember": {
+      "value": "#A34C16",
+      "use": "Flare at text weight / pressed state (AA on ivory)"
+    }
+  },
+  "logo": {
+    "symbolToCapHeight": 2.0,
+    "clearSpace": "0.25 x symbol height",
+    "minSymbolPx": 16,
+    "minLockupPx": 96
+  }
+}
