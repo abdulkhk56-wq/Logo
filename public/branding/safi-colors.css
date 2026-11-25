@@ -1,9 +1,9 @@
-/* SAFI brand colour tokens */
+/* SAFI colour tokens */
 :root {
-  --safi-graphite: #16191D;
-  --safi-flare: #E0782A;
-  --safi-ivory: #F4EFE6;
-  --safi-petroleum: #14403D;
-  --safi-steel: #8A9199;
-  --safi-ember: #A34C16;
+  --safi-navy: #0F2A3D;
+  --safi-flare: #DD5A1E;
+  --safi-white: #FFFFFF;
+  --safi-deep: #0A1E2C;
+  --safi-steel: #5B6B78;
+  --safi-mist: #E8ECEF;
 }

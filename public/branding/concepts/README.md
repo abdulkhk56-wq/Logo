@@ -12,6 +12,6 @@ Every mark is built on a 120 × 120 artboard with a 6-unit module, from circles 
 
 Each folder contains `construction.svg`, `symbol-black.svg`, `symbol-white.svg`, `lockup-black.svg`, `lockup-white.svg`, `app-icon.svg` and `pixel-test/` (true-size rasters at 16, 24, 32 and 48px).
 
-`wordmark-provisional.svg` is the same in every lockup. Final typography, colour and the full identity come after a symbol is approved. Until then, the colour kit in `/public/branding/` (round 1) is superseded and will be replaced.
+`wordmark-provisional.svg` is the same in every lockup. Final typography, colour and the full identity come after a symbol is approved. Laminar was selected; the final colour identity is in `/public/branding/`.
 
 Rebuild: `python3 tools/v2/build_v2.py && node tools/v2/pixel_test.js && python3 tools/v2/present.py`

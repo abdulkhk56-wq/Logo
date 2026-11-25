@@ -1,8 +1,8 @@
 {
   "name": "SAFI",
   "short_name": "SAFI",
-  "theme_color": "#16191D",
-  "background_color": "#16191D",
+  "theme_color": "#0F2A3D",
+  "background_color": "#0F2A3D",
   "icons": [
     { "src": "safi-app-icon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any" },
     { "src": "png/safi-app-icon-192.png", "type": "image/png", "sizes": "192x192", "purpose": "any" },

@@ -1,34 +1,39 @@
 {
   "color": {
-    "graphite": {
-      "value": "#16191D",
-      "use": "Primary dark: wordmark, UI chrome, app-icon field"
+    "navy": {
+      "value": "#0F2A3D",
+      "role": "Primary. Symbol plates and wordmark on light grounds; brand surfaces."
     },
     "flare": {
-      "value": "#E0782A",
-      "use": "Signature accent: the symbol, key actions \u2014 never body text on ivory"
+      "value": "#DD5A1E",
+      "role": "Accent. The centre plate only, plus one highlight per layout. Never body text."
     },
-    "ivory": {
-      "value": "#F4EFE6",
-      "use": "Primary light surface; wordmark on dark"
+    "white": {
+      "value": "#FFFFFF",
+      "role": "Primary light ground; plates and wordmark on navy."
     },
-    "petroleum": {
-      "value": "#14403D",
-      "use": "Secondary: stable / in-limits state, data surfaces"
+    "deep": {
+      "value": "#0A1E2C",
+      "role": "Dark UI ground (control-room screens)."
     },
     "steel": {
-      "value": "#8A9199",
-      "use": "Neutral: rules, secondary text on graphite"
+      "value": "#5B6B78",
+      "role": "Secondary text and rules."
     },
-    "ember": {
-      "value": "#A34C16",
-      "use": "Flare at text weight / pressed state (AA on ivory)"
+    "mist": {
+      "value": "#E8ECEF",
+      "role": "Light panels and table fills."
     }
   },
+  "type": {
+    "family": "Barlow",
+    "data": "Barlow Semi Condensed",
+    "mono": "IBM Plex Mono"
+  },
   "logo": {
-    "symbolToCapHeight": 2.0,
-    "clearSpace": "0.25 x symbol height",
+    "clearSpace": "one plate width (24/96 of symbol width) on every side",
+    "minLockupPx": 100,
     "minSymbolPx": 16,
-    "minLockupPx": 96
+    "smallCutBelowPx": 24
   }
 }
