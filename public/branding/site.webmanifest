@@ -1,8 +1,8 @@
 {
-  "name": "SAFI",
+  "name": "SAFI صافي",
   "short_name": "SAFI",
-  "theme_color": "#0E2236",
-  "background_color": "#0E2236",
+  "theme_color": "#0B2A3C",
+  "background_color": "#0B2A3C",
   "icons": [
     {
       "src": "safi-app-icon.svg",

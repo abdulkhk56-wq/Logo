@@ -1,42 +1,37 @@
 {
   "color": {
-    "flame-red": {
-      "value": "#D63A1A",
-      "role": "Outer flame"
-    },
-    "flame-orange": {
-      "value": "#EE7420",
-      "role": "Flame body; the single accent colour in layouts"
-    },
-    "flame-yellow": {
-      "value": "#F8B320",
-      "role": "Flame core"
-    },
     "navy": {
-      "value": "#0E2236",
-      "role": "Wordmark, primary brand colour, text"
+      "value": "#0B2A3C",
+      "role": "Primary: symbol tile, wordmarks, text"
+    },
+    "gold": {
+      "value": "#C49A4A",
+      "role": "Accent: divider rules, one highlight per layout; never body text"
+    },
+    "white": {
+      "value": "#FFFFFF",
+      "role": "Primary ground"
     },
     "deep": {
-      "value": "#081624",
+      "value": "#071C29",
       "role": "Dark interface ground"
     },
     "steel": {
-      "value": "#5B6B78",
+      "value": "#5E6E7A",
       "role": "Secondary text, rules"
     },
     "mist": {
-      "value": "#E8ECEF",
-      "role": "Light panels"
+      "value": "#E9EDF0",
+      "role": "Panels, table fills"
     }
   },
   "type": {
-    "brand": "Archivo",
-    "data": "Archivo (width 87-100)",
+    "family": "Readex Pro (Arabic + Latin)",
     "mono": "IBM Plex Mono"
   },
   "logo": {
-    "clearSpace": "half the flame width on every side",
-    "minLockupPx": 96,
-    "minSymbolPx": 16
+    "clearSpace": "half the tile width on every side",
+    "minTilePx": 16,
+    "minBilingualPx": 140
   }
 }
